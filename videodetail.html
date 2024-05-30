@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .maintext{
+    margin-top: 20px;
+    padding-top: 8%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .maintext{
+      margin-top: 18px;
+      padding-top: 15%;
+    }
+  }
+  
+  .list-unstyled li:hover {
+    transform: translateY(-2px);
+  }
+  .list-unstyled i {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+  a{
+  
+    text-decoration: none;
+  }
+  .pos-rel img:hover {
+    transform: scale(1.2);
+    transition: all 1.3s ease-in-out;
+}
+
+
+.maintext{
+    margin-top: 20px;
+    padding-top: 8%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .maintext{
+      margin-top: 18px;
+      padding-top: 15%;
+    }
+  }
+  
+  .bi {
+      transition: transform 0.3s ease;
+    }
+    .bi:hover {
+      transform: scale(1.2); /* Scale the icon on hover */
+    }
+  
+
+  
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" style="background: #16A34A; " >
+      <div class="container">
+        <!-- <a class="navbar-brand " href="#">Web Zone</a> -->
+        <img class="w-25" src="./img/Untitled-1.png">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white " href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " href="./books.html">Books</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Articles
+              </a>
+              <ul class="dropdown-menu flex" aria-labelledby="navbarDropdown">
+                  <li class="d-flex"><a class="dropdown-item" href="./aritacle.html">Nepali</a><a class="dropdown-item"
+                      href="#">English</a>
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">English</a>
+                  </li>
+                </ul>
+
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Poems
+              </a>
+              <ul class="dropdown-menu flex" aria-labelledby="navbarDropdown">
+                  <li class="d-flex"><a class="dropdown-item" href="./poem.html">Nepali</a><a class="dropdown-item"
+                      href="#">English</a>
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">English</a>
+                  </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Videos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./YouTube.html">YouTube Videos</a></li>
+                <li><a class="dropdown-item" href="./Facebook.html">on Facebook</a></li>
+                <li><a class="dropdown-item" href="./Election.html">Election Videos 2079 BS (2023)</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Photos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./photo.html">Election Photos 2079 BS (2023)</a></li>
+                <li><a class="dropdown-item" href="#">Election Graphics 2079 BS (2023)</a></li>
+                <li><a class="dropdown-item" href="#">other Photos</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white gap-5" href="./Service.html">Services</a>
+            </li>
+         
+            <li class="nav-item">
+              <a class="nav-link text-white " href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <div>
+            <div class="flex text-white " style="align-items: end;">
+             
+              <a class="text-white" href="">NP</a>
+              |
+              <a class="text-white" href="">EN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+   <div class="container maintext">
+    <div>
+        <div class="">
+            <a href="./contact.html">
+              <button class="btn btn-dark text-center" style="border-radius: 40px; width: 80px; height: 35px;">video</button>
+            </a>
+          </div>
+    <div class="py-3">
+        <h1>‘विश्वविद्यालय, विद्यालयमा राजनीति नगरौँ’-रवीन्द्र मिश्र, नेता, राप्रपा</h1>
+    </div>
+    <div >
+        <p class="py-3">
+            <a href="">April 4, 2023</a>
+        </p>
+    </div>
+
+</div>
+<div class="py-5">
+<div class="py-5" style="width:600px;height:400px;position:relative;display:block;background-color:#000;overflow:hidden;max-width:100%;margin:0 auto;">
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/T546-m3C578" title="&#39;विश्वविद्यालय, विद्यालयमा राजनीति नगरौँ&#39;-रवीन्द्र मिश्र, नेता, राप्रपा | Galaxy News Report" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</iframe>
+</div>
+</div>
+   </div>
+
+   <div class="container">
+    <a class="py-3" href="">Source: NepalKhabar</a>
+    <hr/>
+   
+     <div class="text-center mb-3 ">
+       <div class="d-flex gap-5"> <!-- Center the list -->
+             <p >SHARE ON</p>
+           <ul class="list-unstyled d-flex gap-2">
+               <li class="mr-5">
+                   <a href="#" class="text-dark">
+                       <i class="bi bi-facebook text-white px-2 p-1  bi-lg" style="background-color: #3B5998; border-radius: 4px;"></i>
+                   </a>
+               </li>
+               <li class="mr-5">
+                   <a href="#" class="text-dark">
+                       <i class="bi bi-twitter text-white px-2 p-1 bi-lg rounded-cricle " style="background-color: #1DA1F2; border-radius: 4px;"></i>
+                   </a>
+               </li>
+               <li class="mr-5">
+                   <a href="#" class="text-dark">
+                       <i class="bi bi-instagram text-white px-2 p-1 bi-lg" style="background-color: #405DE6; border-radius: 4px;"></i>
+                   </a>
+               </li>
+               <li class="mr-3">
+                   <a href="#" class="text-dark">
+                       <i class="bi bi-youtube text-white px-2 p-1 bi-lg" style="background-color: #FF0000; border-radius: 4px;"></i>
+                   </a>
+               </li>
+               <li>
+                   <a href="#" class="text-dark">
+                       <i class="bi bi-tiktok text-white px-2 p-1 bi-lg" style="background-color: #393939; border-radius: 4px;"></i>
+                   </a>
+               </li>
+           </ul>
+       </div>
+   </div>
+  
+   </div>
+   <section>
+    <div class="container py-5">
+      <div>
+        <h3>Related</h3>
+      </div>
+      
+       <div class="row">
+        <div class="col-lg-4 col-sm-6 col-xs-12"style="position: relative;" >
+          <article class=" lqd-lp-hover-img-zoom ">
+            <div class=" mb-4 overflow-hidden">
+              <figure class="pos-rel " style="overflow: hidden; ">
+                <img class="w-100 scale" width="1200" height="250" src="./img/box1.jpg" style="overflow: hidden;" >
+              </figure>
+              <div class=" d-flex align-items-center p-0  " style="position: absolute; bottom: 80px; color: white; ">
+                <span class=" z-index-2 pt-2 pb-3 ps-3 pe-6">10 months ago</span>
+                <ul class="  pt-1 ">
+                  <li>
+                    <a href="">Media</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <header class=" mb-2">
+              <h2 class="lqd-lp-title h5 m-0">
+                <a class="text-black" href="">पूर्वराजाको जन्मदिनमा रवीन्द्र मिश्रको याचना : यो देशमा कोही नबस्ने भए, छिट्टै राजगद्दीमा आइदिनुस्</a>
+              </h2>
+            </header>
+          </article>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-12" style="position: relative;">
+          <article class=" lqd-lp-hover-img-zoom ">
+            <div class=" mb-4 overflow-hidden">
+              <figure class="pos-rel " style="overflow: hidden; ">
+                <img class="w-100 scale" width="1200" height="250" src="./img/box1.jpg" style="overflow: hidden;" >
+              </figure>
+              <div class=" d-flex align-items-center p-0  " style="position: absolute; bottom: 80px; color: white; ">
+                <span class=" z-index-2 pt-2 pb-3 ps-3 pe-6">10 months ago</span>
+                <ul class="  pt-1 ">
+                  <li>
+                    <a href="">Media</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <header class=" mb-2">
+              <h2 class="lqd-lp-title h5 m-0">
+                <a class="text-black" href="">पूर्वराजाको जन्मदिनमा रवीन्द्र मिश्रको याचना : यो देशमा कोही नबस्ने भए, छिट्टै राजगद्दीमा आइदिनुस्</a>
+              </h2>
+            </header>
+          </article>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-12" style="position: relative;">
+          <article class=" lqd-lp-hover-img-zoom ">
+            <div class=" mb-4 overflow-hidden">
+              <figure class="pos-rel " style="overflow: hidden; ">
+                <img class="w-100 scale" width="1200" height="250" src="./img/box1.jpg" style="overflow: hidden;" >
+              </figure>
+              <div class=" d-flex align-items-center p-0  " style="position: absolute; bottom: 80px; color: white; ">
+                <span class=" z-index-2 pt-2 pb-3 ps-3 pe-6">10 months ago</span>
+                <ul class="  pt-1 ">
+                  <li>
+                    <a href="">Media</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <header class=" mb-2">
+              <h2 class="lqd-lp-title h5 m-0">
+                <a class="text-black" href="">पूर्वराजाको जन्मदिनमा रवीन्द्र मिश्रको याचना : यो देशमा कोही नबस्ने भए, छिट्टै राजगद्दीमा आइदिनुस्</a>
+              </h2>
+            </header>
+          </article>
+        </div>
+      </div> 
+    </div>
+   
+  </section>
+  <section>
+    <div class="container py-5">
+      <h1>Leave a Comment</h1>
+      <form>
+        <div class="row">
+        <div class="form-group col-md-4 col-sm-6">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group col-md-4 col-sm-6">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group col-md-4 col-sm-6">
+          <label for="website">Website:</label>
+          <input type="url" class="form-control" id="website" placeholder="Enter your website URL">
+        </div>
+        <div class="form-group py-3">
+          <label for="comment">Comment:</label>
+          <textarea class="form-control" id="comment" rows="5" placeholder="Enter your comment"></textarea>
+        </div>
+      </div >
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </form>
+    </div>
+  
+  </section>
+  <footer>
+    <div class="container-fluid" style="background-color:#B0B1A4 ">
+      <div class="align-items-center text-center py-5">
+        <h3 class="text-center text-white">I have a dream -- my dream is to witness Nepal <br/>transform within a generation and restore its glory.</h3>
+        <img class="w-25" src="./img/logo-new-white.png">
+  
+        <div class="text-center mb-3">
+          <div class="d-flex justify-content-center"> <!-- Center the list -->
+            <ul class="list-unstyled d-flex gap-3">
+              <li class="mr-5">
+                <a href="#" class="text-dark">
+                  <i class="bi bi-facebook text-white px-2 p-1 bi-lg" style="background-color: #3B5998; border-radius: 4px;"></i>
+                </a>
+              </li>
+              <li class="mr-5">
+                <a href="#" class="text-dark">
+                  <i class="bi bi-twitter text-white  px-2 p-1 bi-lg " style="background-color: #1DA1F2; border-radius: 4px;" ></i>
+                </a>
+              </li>
+              <li class="mr-5">
+                <a href="#" class="text-dark">
+                  <i class="bi bi-instagram text-white px-2 p-1 bi-lg" style="background-color: #405DE6; border-radius: 4px;"></i>
+                </a>
+              </li>
+              <li class="mr-3">
+                <a href="#" class="text-dark">
+                  <i class="bi bi-youtube text-white px-2 p-1 bi-lg" style="background-color: #FF0000; border-radius: 4px;"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-dark">
+                  <i class="bi bi-tiktok text-white px-2 p-1 bi-lg" style="background-color: #393939; border-radius: 4px;"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      
+      <div class="container">
+        <div class="text-center">
+          <a href="./contact.html">
+            <button class="btn btn-dark">Get Connected</button>
+          </a>
+        </div>
+      
+      <hr/>
+      <p class="text-center">Copyright © 2023 Rabindra Mishra | All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+     var nav = document.querySelector('nav');
+        window.addEventListener('scroll', function () {
+          if (window.pageYOffset > 100) {
+            nav.classList.add('bg-dark', 'shadow');
+          } else {
+            nav.classList.remove('bg-dark', 'shadow');
+          }
+        });
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

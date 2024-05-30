@@ -1,0 +1,46 @@
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="292.2px" height="340.2px" viewBox="0 0 292.2 340.2" enable-background="new 0 0 292.2 340.2"
+	 xml:space="preserve">
+<defs>
+</defs>
+<g>
+	<path fill="#FFFFFF" d="M132,340.2c-72.8,0-132-59.2-132-132s59.2-132,132-132s132,59.2,132,132S204.8,340.2,132,340.2z M132,92.2
+		c-64,0-116,52-116,116s52,116,116,116s116-52,116-116S196,92.2,132,92.2z"/>
+	<g>
+		<rect x="27.7" y="43.2" fill="#FFFFFF" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" width="176" height="208"/>
+		<rect x="45.1" y="62" fill="#231F20" width="141.3" height="143.4"/>
+		<g>
+			<polyline fill="#231F20" points="53.1,169.7 92.7,136.7 115.7,156.2 153.8,124.7 178.3,149.8 			"/>
+			<polygon fill="#FFFFFF" points="57,174.3 49.3,165.1 92.7,128.9 115.7,148.4 154.2,116.5 182.6,145.6 174,154 153.4,132.8 
+				115.7,164.1 92.6,144.5 			"/>
+		</g>
+		<circle fill="#FFFFFF" cx="79.7" cy="95.2" r="22"/>
+	</g>
+	<g>
+		
+			<rect x="58.6" y="30.9" transform="matrix(0.9935 0.1139 -0.1139 0.9935 16.3228 -15.8248)" fill="#FFFFFF" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" width="176" height="208"/>
+		
+			<rect x="77.5" y="49.8" transform="matrix(0.9935 0.1139 -0.1139 0.9935 14.8105 -16.0864)" fill="#231F20" width="141.3" height="143.4"/>
+		<g>
+			<polyline fill="#231F20" points="81.9,150.1 124.9,121.8 145.6,143.9 187,116.9 208.5,144.6 			"/>
+			<polygon fill="#FFFFFF" points="85.1,155.1 78.6,145.1 125.8,114 146.5,136.1 188.4,108.8 213.2,140.9 203.7,148.3 185.6,124.9 
+				144.6,151.6 124,129.6 			"/>
+		</g>
+		<circle fill="#FFFFFF" cx="116.8" cy="79.1" r="22"/>
+	</g>
+	<g>
+		
+			<rect x="92.3" y="19.5" transform="matrix(0.9699 0.2436 -0.2436 0.9699 35.5135 -40.1914)" fill="#FFFFFF" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" width="176" height="208"/>
+		
+			<rect x="112.9" y="38.8" transform="matrix(0.9699 0.2436 -0.2436 0.9699 32.4353 -41.382)" fill="#231F20" width="141.3" height="143.4"/>
+		<g>
+			<polyline fill="#231F20" points="114.1,130.1 160.5,107.7 178.1,132.3 222.7,111 240.4,141.3 			"/>
+			<polygon fill="#FFFFFF" points="116.7,135.5 111.5,124.7 162.4,100.1 180,124.7 225.1,103.2 245.5,138.3 235.2,144.3 
+				220.3,118.8 176.1,139.9 158.6,115.3 			"/>
+		</g>
+		<circle fill="#FFFFFF" cx="158" cy="64.3" r="22"/>
+	</g>
+</g>
+</svg>

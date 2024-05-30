@@ -1,0 +1,78 @@
+.a img{
+    height: 10px;
+    width: 20px;
+}
+*{
+    font-family: "Marcellus", serif;
+}
+
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  a p{
+  
+    text-decoration: none;
+  }
+
+  .maintext{
+    margin-top: 20px;
+    padding-top: 8%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .maintext{
+      margin-top: 20px;
+      padding-top: 28%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container p{
+      font-size: 20px;
+     
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .img-fluid{
+      height: 300px;
+     
+    }
+  }
+  
+  
+  @media (min-width: 767px ) {
+    .img-fluid{
+      height: 500px;
+    
+     object-fit: cover;
+    }
+    
+}
+@media (min-width: 767px ) {
+  .container p{
+    font-size: 18px;
+  }
+  
+}
+  a{
+  
+    text-decoration: none;
+  }
+  p{
+    font-size: larger;
+    font-style: normal;
+  }
+
+  .list-unstyled li:hover {
+    transform: translateY(-2px);
+  }
+  .list-unstyled i {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+  .verticle-line{
+    width: 1px;
+    height: 10px;
+    background-color: black;
+  }
+  

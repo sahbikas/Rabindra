@@ -1,0 +1,25 @@
+.maintext{
+    margin-top: 20px;
+    padding-top: 8%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .maintext{
+      margin-top: 18px;
+      padding-top: 15%;
+    }
+  }
+  .list-unstyled li:hover {
+    transform: translateY(-2px);
+  }
+  .list-unstyled i {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+  a{
+  
+    text-decoration: none;
+  }
+  .pos-rel img:hover{
+    transform: scale(1.2);
+    transition:  all  1.3s;
+  }

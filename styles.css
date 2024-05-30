@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container-fuild {
+    padding: 150px; /* Add padding to container */
+  }
+  .banner {
+    height: 90vh;
+    width: 100%;
+    background-image: url('./img/Rabindra-Mishra-bgx.png');
+    background-size: cover;
+    background-position: center; /* Center background image */
+    
+    padding: 100px; /* Add padding */
+    text-align: right; /* Align text to the right */
+    color: white; /* Text color */
+  }
+  .banner-text {
+    margin-top: 100px;
+    margin-right: 20px; /* Adjust margin-right */
+  }
+  .banner-text h1 {
+    font-size: 4rem; /* Adjust font size */
+  }
+  .banner-text p {
+    font-size: 2rem; /* Adjust font size */
+  }
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .banner {
+      height: 50vh;
+      width: 100%; /* Adjust height for smaller screens */
+      text-align: center; /* Center align text */
+    }
+    
+    .banner-text h1 {
+        font-size: 1rem;
+        /* Adjust font size */
+      }
+      .banner-text p {
+        font-size: 0.5rem; /* Adjust font size */
+      }
+  }
+  @media (max-width: 768px) {
+    .thumbs {
+     max-height: 70vh; /* Adjust height for smaller screens */
+       /* Center align text */
+    }
+   
+    
+  }
+  @media (max-width: 600px) {
+    .thumbs {
+      min-height: 75vh; /* Adjust height for smaller screens */
+      text-align: center; /* Center align text */
+    }
+   
+    
+  }
+  @media (max-width: 768px) {
+    .banner-text {
+      margin:  200px 10px 0 0; /* Adjust margin-top */
+      margin-right: 0; /* Reset margin-right */
+      text-align: center; /* Center align text */
+    }
+    
+  }
+  @media (max-width: 600px) {
+    .banner-text {
+      margin:  160px 10px 0 0; /* Adjust margin-top */
+      margin-right: 0; /* Reset margin-right */
+      text-align: center; /* Center align text */
+    }
+    
+  }
+  
+  @media (max-width: 768px) {
+    .px-3 {
+      font-size: 5px;
+      
+    }
+   
+    
+  }  
+ 
+ 
+  @media only screen 
+and (min-device-width : 820px) 
+and (max-device-width : 1168px) {
+  .box-image {
+    
+    width: 200px !important;
+    height: 200px !important;
+
+    
+    background-size: cover;
+    background-color: #333;
+    background-image: url('./img/box1.jpg');
+    background-size: cover;
+    background-position: center;
+   }
+
+}
+ 
+  
+  /* leatest ress */
+  .box-image {
+    background-color: #333;
+    background-image: url('./img/box1.jpg');
+    background-size: cover;
+    background-position: center;
+   
+     /* Specify height with units */
+     height: 210px !important;
+    flex: 1;
+    right: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .box-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.9s ease;
+  }
+  
+  .box-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+   
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.9s ease;
+  }
+  
+  .box-image:hover::before {
+    opacity: 0.5;
+  }
+  
+  /* Adjust the styles for the content within .box-image */
+  .box-image .content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    z-index: 3;
+  }
+/* leate video */
+  .card {
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+   
+  .thumbs {
+    background-image: url('./img/thumbs.jpg');
+  }
+  
+  .thumbs .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+  }
+  
+  .thumbs .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .list-unstyled li:hover {
+    transform: translateY(-2px);
+  }
+  .list-unstyled i {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+
+  a{
+  
+    text-decoration: none;
+  }
+  .gallery-img:hover{
+    transform: scale(1.09);
+  }
+ 
+
+.image-container {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+     /* Semi-transparent background */
+    padding: 10px; /* Add some padding */
+}
+
+.box-shadow {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1),
+    0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.title-section {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.title-section h1 {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  margin-bottom: -1px;
+  border-bottom: 2px solid #c4161c;
+}
+
+.title-section h1 span {
+  background: #078d1a;
+  display: inline-block;
+  padding-bottom: 8px;
+  padding-right: 14px;
+  padding-left: 13px;
+  padding-top: 12px;
+  border-left: 4px solid #c4161c;
+}
+
+.title-section .nav {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -15px;
+  color: #df2747;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.title-section .nav a {
+  padding: 8px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+a:hover,
+a:focus {
+  color: #c4161c;
+}
+
+.btn-link {
+  display: inline-block;
+  color: inherit;
+  font-weight: inherit;
+  transition: color 0.25s, border-color 0.25s, background-color 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-link:hover,
+.btn-link:focus,
+.btn-link.active {
+  color: #0087cb;
+}
+
+a,
+.btn-link,
+a:link,
+.btn-link:link,
+a:visited,
+.btn-link:visited,
+a:hover,
+.btn-link:hover,
+a:focus,
+.btn-link:focus,
+a:active,
+.btn-link:active {
+  text-decoration: none;
+  outline: 0;
+}
+
+.post--items {
+  position: relative;
+  z-index: 0;
+}
+
+.post--items.post--items-1 {
+  margin-top: -15px;
+}
+
+ul.nav {
+  margin-bottom: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

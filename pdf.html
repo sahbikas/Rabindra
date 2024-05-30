@@ -1,0 +1,356 @@
+
+  
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .container-fuild {
+    background-color: #EEE9D7; /* Your background color */
+    padding: 20px;
+}
+
+ul.flex {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+ul.flex li {
+    margin: 0 10px; /* Adjust spacing between list items */
+    text-align: center;
+}
+
+ul.flex li a {
+    display: block;
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+
+a.rounded-circle:hover {
+    transform: scale(1.1); /* Make the icon slightly larger on hover */
+    transition: transform 0.3s ease;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the icons */
+}
+.maintext{
+    margin-top: 20px;
+    padding-top: 8%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .maintext{
+      margin-top: 18px;
+      padding-top: 15%;
+    }
+  }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" style="background: #16A34A; " >
+        <div class="container">
+          <!-- <a class="navbar-brand " href="#">Web Zone</a> -->
+          <img class="w-25" src="./img/Untitled-1.png">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white " href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white " href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white " href="./books.html">Books</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Articles
+                </a>
+                <ul class="dropdown-menu flex" aria-labelledby="navbarDropdown">
+                  <li class="d-flex"><a class="dropdown-item" href="./aritacle.html">Nepali</a><a class="dropdown-item"
+                      href="#">English</a>
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">English</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Poems
+                </a>
+                <ul class="dropdown-menu flex" aria-labelledby="navbarDropdown">
+                  <li class="d-flex"><a class="dropdown-item" href="./poem.html">Nepali</a><a class="dropdown-item"
+                      href="#">English</a>
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">English</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Videos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./YouTube.html">YouTube Videos</a></li>
+                  <li><a class="dropdown-item" href="./Facebook.html">on Facebook</a></li>
+                  <li><a class="dropdown-item" href="./Election.html">Election Videos 2079 BS (2023)</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Photos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./photo.html">Election Photos 2079 BS (2023)</a></li>
+                  <li><a class="dropdown-item" href="#">Election Graphics 2079 BS (2023)</a></li>
+                  <li><a class="dropdown-item" href="#">other Photos</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white gap-5" href="./Service.html">Services</a>
+              </li>
+           
+              <li class="nav-item">
+                <a class="nav-link text-white " href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <div>
+              <div class="flex text-white " style="align-items: end;">
+               
+                <a class="text-white" href="">NP</a>
+                |
+                <a class="text-white" href="">EN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container-fuild maintext">
+        <ul class="flex">
+            <li>
+                <a href="">
+                    <i class="bi bi-house-door-fill">Home</i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-house-door-fill">Home</i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="container py-3">
+        <div class="row" style="position: relative;">
+            <div class="col-md-8 mx-auto">
+                <div class="text-center  ">
+                  <h1 class="page-title m-3 bg-nepali pt-4 text-center" style="background-color: antiquewhite;">बोल्छु यहीँबाट
+                    <hr style="border-top:2px solid #078d1a"/>
+                  </h1>
+                  
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled text-center flex">
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-pencil-square"></i>  ३ हप्ता अगाडि
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-calendar-date"></i> २०८१ बैशाख ५ गते बुधबार
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-calendar-date"></i>  
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 d-flex gap-3 align-items-center" style="margin-top: 50px;">
+                        <div>
+                            <a href="#" class="rounded-circle d-inline-block p-2 ">
+                                <i class="bi bi-facebook px-2 p-1 bi-lg text-white " style="background-color: #3B5998; border-radius: 12px;"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="rounded-circle d-inline-block p-2 ">
+                                <i class="bi bi-twitter text-white px-2 p-1 bi-lg" style="background-color: #1DA1F2; border-radius: 12px;"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="rounded-circle d-inline-block p-2 ">
+                                <i class="bi bi-instagram text-white px-2 p-1 bi-lg" style="background-color: #405DE6; border-radius: 12px;"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="rounded-circle d-inline-block p-2 ">
+                                <i class="bi bi-youtube text-white px-2 p-1 bi-lg" style="background-color: #FF0000; border-radius: 12px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                    <div class="mb-10 py-3">
+                        <a href="" class="thum">
+                            <img src="./img/Cover-Yearly-Report_-Ashoj-080.jpg" width="100%" style="border-radius: 10px;">
+                        </a>
+                    </div>
+                    <div class="p-5 " style="background-color: #EEEBDE;">
+                        <div style="position: relative; margin-bottom: 30px; display: flex; align-items: center; justify-content: space-between;">
+                            <img style="width: 10rem; height: 10rem; border-radius: 50%; margin-right: 30px;" src="./img/1713331013_890086493_Chham Gurung (1).jpg">
+                            <h4 style="margin-right: 30px;">
+                                <span style="background-color: #078d1a; color: #fff; padding: 5px;">छम गुरूङ ‘मीमिन्दा’</span>
+                            </h4>
+                            <h4 style="margin-left: 10px;">
+                                <span style="background-color: #078d1a; color: #fff; padding: 5px;">२०८१ बैशाख ५ गते बुधबार</span>
+                            </h4>
+    
+                        </div>
+                        <hr style="border-top: 2px solid green"/>
+                        <p>म यतै–कतै छेउछाउ <br/>
+                            एउटा साँगुरो खाजाघरभित्र यसो गम्दैछु</p>
+                            <p>यो आकस्मिक सत्य कुरा हैन <br/>
+                                कि मेरा औंलाहरु काँटा–चम्चामा बदलिन खोज्छन्</p>
+                                <p>यतै–कतै हो भर्खर<br/>
+                                    एक प्लेट चाउमिनमा नुन–खुर्सानी चर्को भएर गुनासो सुन्न परिरहेको छ</p>
+                                    <p>शक्तिशाली छिमेकीहरु तेल र हतियारको संगीत गाइरहेछन्</p>
+                                    <p>पृथ्वीमा शस्त्र–रसायनको भाउ बढेकोमा <br/>
+                                        कोही किन खुसी या चुपचाप ? </p>
+                                 <p>गुटा , गाजा , काश्मिर  हुँदै लिम्पियाधुरा सम्म <br/>
+                                    पारस्परिक आँसु पुछ्ने फुर्सदमा छैनन्</p>
+
+                                    <p>बुढाबुढीलाई एक गिलास पानीको तिर्खा छ<br/>
+                                        हातहरु तेलले निलिसकेको छ</p>
+                                        <p>पानीको आवाज सुन्नुझैं रगतको आवाज सुन्न सजिलो छैन</p>
+                                <p>तेलको तलाउ पिउने नृत्यरत हतियारहरु<br/>
+                                    स्कुले नानीका पेन्सिलहरुभन्दा बलिया हुँदैनन् </p>
+
+                                    <p>अनिँदो रातको बेला<br/>
+                                        ओछ्यानमा सिरानीमै डुलिरहन्छ<br/>
+                                        एक घृणास्पद आणविक बमको छायाँ</p>
+
+                                <p>धर्म–राज्य, नश्लीय प्रहार–प्रतिप्रहार, शक्ति–होड, तेल–ग्याँस <br/>
+                                    अन्ततः निरन्तर हतियार–स्पर्धाले <br/>
+                                    रक्त–इतिहास र चिहान वितरण गरिरहेछन्</p>
+
+                                    <p>एक जना युद्ध–सरदार <br/>
+                                        या साम्राज्यवादी मान्छे भनेको <br/>
+                                        कुनै मरुभूमिमा या एक व्यस्त चोकमा गाडिएको रुखजस्तै हो <br/>
+                                        उसका हाँगाहरु भनेका नयाँ–नयाँ हतियारहरु हुन्<br/>
+                                        उसका सप्mटवेयरहरु पनि हतियारहरु नै हुन्<br/>
+                                        र, पृथ्वीकै यात्रा अन्त्य गराउन सक्छ है !</p>
+
+                                        <p>पक्कै पनि चारैतिर थुनिएको अँधेरो बाटो मात्र हुँदैनन्<br/>
+                                            उज्यालो नजिकै छ, सँगै हुन्छ<br/>
+                                            अझ भनौं उज्यालो त घामसँग भन्दा हामीभित्रै छ</p>
+
+                                            <p>यो खाजाघरको जसरी एक डल्लो मःमः वा ससेज<br/>
+                                                सधैं जसो उस्तै र उही<br/>
+                                                म हुँदै हैन,<br/>
+                                                त्यसरी नै संसार पनि <br/>
+                                                घातक यथास्थितिमा बेरिएर जहाँको त्यहीँ गाँठो परेर बस्दैन !</p>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                  <p> घातक यथास्थितिमा बेरिएर जहाँको त्यहीँ गाँठो</p>
+                    <div class="col-8">
+                        <div class="container" style="overflow: hidden;">
+                           
+                            <div>
+                                <button type="button" class="px-2 py-1 rounded bg text-white bg-success">
+                                    <a href="https://gold-cornie-76.tiiny.site" target="_blank">View</a>
+                                </button>
+                                <button type="button" class="px-2 py-1 rounded bg-success text-white">
+                                    <a href="document.pdf" download target="_self">Download</a>
+                                </button> 
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div class="container-fluid" style="background-color:#B0B1A4">
+        <div class="align-items-center text-center py-5">
+          <h3 class="text-center text-white">I have a dream -- my dream is to witness Nepal <br/>transform within a generation and restore its glory.</h3>
+          <img class="w-25" src="./img/logo-new-white.png">
+    
+          <div class="text-center mb-3">
+            <div class="d-flex justify-content-center"> <!-- Center the list -->
+                <ul class="list-unstyled d-flex gap-3">
+                    <li class="mr-5">
+                        <a href="#" class="text-dark">
+                            <i class="bi bi-facebook text-white px-2 p-1 bi-lg" style="background-color: #3B5998; border-radius: 4px;"></i>
+                        </a>
+                    </li>
+                    <li class="mr-5">
+                        <a href="#" class="text-dark">
+                            <i class="bi bi-twitter text-white  px-2 p-1 bi-lg " style="background-color: #1DA1F2; border-radius: 4px;" ></i>
+                        </a>
+                    </li>
+                    <li class="mr-5">
+                        <a href="#" class="text-dark">
+                            <i class="bi bi-instagram text-white px-2 p-1 bi-lg" style="background-color: #405DE6; border-radius: 4px;"></i>
+                        </a>
+                    </li>
+                    <li class="mr-3">
+                        <a href="#" class="text-dark">
+                            <i class="bi bi-youtube text-white px-2 p-1 bi-lg" style="background-color: #FF0000; border-radius: 4px;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">
+                            <i class="bi bi-tiktok text-white px-2 p-1 bi-lg" style="background-color: #393939; border-radius: 4px;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container">
+          <div class="text-center">
+            <a href="./contact.html">
+              <button class="btn btn-dark">Get Connected</button>
+            </a>
+          </div>
+        
+        <hr/>
+        <p class="text-center">Copyright © 2023 Rabindra Mishra | All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+   <script>
+     var nav = document.querySelector('nav');
+        window.addEventListener('scroll', function () {
+          if (window.pageYOffset > 100) {
+            nav.classList.add('bg-dark', 'shadow');
+          } else {
+            nav.classList.remove('bg-dark', 'shadow');
+          }
+        });
+   </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

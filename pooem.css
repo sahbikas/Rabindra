@@ -1,0 +1,111 @@
+@media (max-width: 767px ) {
+    .shadow-box-mobile {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    }
+    .rounded-md {
+      width: 400px;
+      height: 150px;
+    }
+    .font-weight-bold{
+      display: flex;
+      justify-content: space-between;
+    }
+}
+.rounded-md{
+  border-radius: 6px;
+}
+
+a{
+  
+    text-decoration: none;
+  }
+
+  .maintext{
+    margin-top: 10px;
+    padding-top: 5%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .maintext{
+      margin-top: 10px;
+      padding-top: 15%;
+    }
+  }
+  .list-unstyled li:hover {
+    transform: translateY(-2px);
+  }
+  .list-unstyled i {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+  
+  .news-wrapper {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 6px rgba(0, 0, 0, .12);
+    transition: transform .8s;
+    overflow: hidden;
+    max-height: 20rem;
+    min-height: 20rem;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .news-wrapper {
+      box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 6px rgba(0, 0, 0, .12);
+      transition: transform .8s;
+      overflow: hidden;
+      max-height: 20rem;
+      min-height: 20rem;
+    }
+  }
+  
+  .news-wrapper:hover .news-thumb img {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .news-thumb{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    justify-content: center;
+  }
+  .news-wrapper .news-thumb img {
+    transition: all 500ms ease-out 0s;
+    width: 200%;
+    height: 196px;
+    align-items: center;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .news-wrapper .news-thumb img {
+      transition: all 500ms ease-out 0s;
+      width: 100%;
+     
+      height: 180px;
+      object-fit: cover;
+    }
+  }
+  
+  .news-details .news-bottom-meta {
+    background: #078d1a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .p-4 {
+    padding: 1.5rem !important;
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  
+  .box-shadow {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .h4,
+  h4 {
+    font-size: 18px;
+  }
+  
